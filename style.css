@@ -1,0 +1,87 @@
+
+* {
+    font-family: monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(78, 78, 78);
+}
+
+.banner {
+    background: rgb(43, 93, 168);
+    padding: 10px;
+    text-align: center;
+}
+
+.isslogoclick {
+    transform: rotateZ(360deg);
+}
+
+.imger {
+    transition: .5s;
+}
+
+.imger:hover {
+    filter: opacity(75%);
+}
+
+.nav {
+    background: rgb(41, 41, 41);
+    padding: 5px;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a:hover {
+    background: rgb(80, 80, 80);
+    border-radius: 10px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.nav ul li.active a {
+    color: lightblue;
+}
+
+.product {
+    padding: 10px;
+    margin: 10px;
+    background: rgb(30, 112, 189);
+    border-radius: 10px;
+}
+
+.product a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.product a:hover {
+    background: rgb(39, 151, 255);
+    border-radius: 100vmax;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 2;
+}
+
+.n1 {
+    grid-row: 1;
+    grid-column: 1;   
+}
+
+.n2 {
+    grid-row: 1;
+    grid-column: 2;
+}
